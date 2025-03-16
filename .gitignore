@@ -36,3 +36,63 @@ yarn-error.log*
 # Misc
 .DS_Store
 *.pem
+
+# macOS System Files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Node.js / Bun Dependencies
+node_modules/
+bun.lockb
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Turborepo-Specific
+.turbo/
+dist/
+out/
+*.log
+
+# Prisma-Specific
+prisma/generated/
+*.db
+*.sqlite
+*.sqlite-journal
+
+# Solana Development
+anchor-target/
+target/
+*.keypair
+*.jsonl
+*.log.gz
+
+# Build Outputs
+build/
+*.tsbuildinfo
+
+# Environment Variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Editor and IDE Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs and Temp Files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Coverage Reports
+coverage/
+lcov-report/
